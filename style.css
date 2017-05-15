@@ -2,7 +2,8 @@ body{padding: 0px; margin: 0px; border: 0px; background: #4CB5F5;}
 
 #banner, #container, footer{
 	text-align: center;
-	font-family: cursive;
+	font-family: 'Patrick Hand', cursive;
+	font-size: 22px;
 	overflow: auto;
 }
 header{
@@ -126,9 +127,6 @@ footer{
 
 @media (max-width: 1000px)
 {
-	#banner, #container, footer{
-		font-family: sans-serif;
-	}
 	header{
 		font-size: 20px;
 	}
