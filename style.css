@@ -126,6 +126,9 @@ footer{
 
 @media (max-width: 1000px)
 {
+	#banner, #container, footer{
+		font-family: sans-serif;
+	}
 	header{
 		font-size: 20px;
 	}
