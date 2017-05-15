@@ -2,7 +2,7 @@ body{padding: 0px; margin: 0px; border: 0px; background: #4CB5F5;}
 
 #banner, #container, footer{
 	text-align: center;
-	font-family: 'Patrick Hand', cursive;
+	font-family: 'Patrick Hand', monospace;
 	font-size: 22px;
 	overflow: auto;
 }
