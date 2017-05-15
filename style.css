@@ -110,6 +110,20 @@ footer{
 	height: 100px;
 }
 
+#allStops ul {
+	list-style: none;
+	width: 80%;
+	margin: auto;
+	padding: 10px;
+	font-size: 22px;
+	font-family: monospace;
+	
+}
+
+#allStops li {
+	
+}
+
 @media (max-width: 1000px)
 {
 	header{
