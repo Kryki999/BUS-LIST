@@ -2,7 +2,7 @@ body{padding: 0px; margin: 0px; border: 0px; background: #4CB5F5;}
 
 #banner, #container, footer{
 	text-align: center;
-	font-family: 'Patrick Hand', monospace;
+	font-family: 'Pangolin', monospace;
 	font-size: 22px;
 	overflow: auto;
 }
@@ -10,7 +10,7 @@ header{
 	z-index: 1000;
 	position: absolute;
 	width: 100%;
-	font-size: 30px;
+	font-size: 45px;
 }
 #container{
 	max-width: 1200px;
@@ -43,7 +43,7 @@ img{
 
 footer{
 	width: 100%;
-	background: url(image/footer.jpg);
+	background: url(image/footer.png);
 	padding: 8px 0px;
 }
 
@@ -121,8 +121,15 @@ footer{
 	
 }
 
-#allStops li {
-	
+figcaption{
+	color: #000;
+}
+span{
+	font-size: 20px;
+}
+
+.red{
+	color: #CE5A57;
 }
 
 @media (max-width: 1000px)

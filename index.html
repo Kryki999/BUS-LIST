@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
@@ -11,26 +11,26 @@
 <body>
 	
  	<div id="banner">
-		<header><p>BUS LIST</p></header>
+		<header><p>ROZKŁAD - Ostróda</p></header>
 		<div class="info"><p>Strona stworzona do własnych potrzeb. Można na niej sprawdzić kursy autobusów (Linie 3, 4 i 12) w Ostródzie na wybranych przystankach.<p></div>
 		<img src="image/banner2.png" alt="Przystanek">
 		
 	</div>
 	
-		<div class="dropdown">
+	<div class="dropdown">
   <button class="dropbtn">Lista Przystanków</button>
   <div class="dropdown-content">
-    <a id="las-button">Międzylesie</a>
-    <a id="21-button">21-Stycznia</a>
-    <a id="blaszak-button">Blaszak</a>
-    <a id="zamek-button">Zamek</a>
+		  	<a class="btn" id="miedzylesieBtn">Międzylesie</a>
+	  		<a class="btn" id="blaszakBtn">Blaszak</a>
+	  		<a class="btn" id="styczniaBtn">21-Stycznia</a>
+	  		<a class="btn" id="zamekBtn">Zamek</a>
   </div>
 </div>
 	
 	<div id="container">
 		
 		<div id="actual-stop">
-			<p>Aktualny Przystanek: <span id="stop">Międzylesie</span><p>
+			<p>Aktualny Przystanek: <span id="stop"></span><p>
 		</div>
 			
 		<div id="allStops"></div>	
