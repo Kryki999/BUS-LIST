@@ -54,16 +54,5 @@ $(document).ready(function(){
 			});
 	}
 	Request.send();
-	
-	$(".btn").click(function(){
-		$(".dropdown-content").css("display", "none");
-	})
-	
-	$(".dropdown").hover(function(){
-			$(".dropdown-content").css("display", "block");
-	}, function(){
-		$(".dropdown-content").css("display", "none");
-	});
-	
-	
+
 });							
